@@ -1,0 +1,33 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+.main-container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+.navbar{
+    background:rgb(86, 124, 146);
+}
+.navbar ul{
+    list-style:none;
+    padding:1em;
+}
+.navbar li{
+    display:inline;
+}
+.navbar a{
+    margin-left: 1em;
+    padding:1em;
+    text-decoration:none;
+    color:white;
+}
+.navbar a:hover{
+    color:rgb(255, 255, 255);
+    background:rgb(70, 172, 240);
+}
+.navbar .active{
+    color:rgb(255, 255, 255);
+    background:rgb(70, 172, 240);
+}
