@@ -16,6 +16,12 @@
                 <li><a class="nav active" href="maintain.php">CLEAN & MAINTAIN</a></li>
             </ul>
         </div>
+        <div class="greetings">
+            <h3>Keep your appliances running</h3>
+            <h3>safely and efficiently</h3>
+            <p>Expert Appliance Cleaning and Maintenance</p>
+            <button id="schedule" onclick="scheduleClick()">Schedule now</button>
+        </div>
     </div>
 </body>
 </html>
