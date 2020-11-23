@@ -49,26 +49,3 @@ body{
     border-radius:4px;
     padding:20px;
 }
-.products{
-    display:flex;
-    justify-content:space-evenly;
-    text-align:center;
-}
-.brands{
-    display:flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-}
-.left{
-    float:left;
-    width:50%;
-    background:blue;
-}
-.right{
-    float:right;
-    width:40%;
-    background:red;
-}
-.selectbrands{
-    display:none;
-}
