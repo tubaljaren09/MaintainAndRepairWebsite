@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repair</title>
     <link rel="stylesheet" href="./styles/repair.css">
-    <script src="./scripts/repair.js"></script>
 </head>
 <body>
     <div class="main-container">
@@ -21,13 +20,15 @@
             <h3>Trust the Appliance Repair Experts</h3>
             <p>We’re in your neighborhood and we’ll fix it, no</p>
             <p>matter where you bought it.</p>
-            <button id="schedule" onclick="scheduleClick()">Schedule now</button>
+            <button id="schedule">Schedule now</button>
         </div>
     </div>
     <div class="bg-modal">
         <div class="modal-content">
-           
+           <button id="close">CLOSE</button>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./scripts/repair.js"></script>
 </body>
 </html>

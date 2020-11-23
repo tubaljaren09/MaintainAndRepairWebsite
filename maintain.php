@@ -20,7 +20,7 @@
             <h3>Keep your appliances running</h3>
             <h3>safely and efficiently</h3>
             <p>Expert Appliance Cleaning and Maintenance</p>
-            <button id="schedule" onclick="scheduleClick()">Schedule now</button>
+            <button id="schedule">Schedule now</button>
         </div>
     </div>
 </body>
