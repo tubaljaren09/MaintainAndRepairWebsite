@@ -25,7 +25,28 @@
     </div>
     <div class="bg-modal">
         <div class="modal-content">
-           <button id="close">CLOSE</button>
+            <div class="row">
+                <div class="column left" style="background-color:#aaa;">
+                    <h2>Select a product</h2>
+                    <div class="reficon">
+                        <img src="./images/reficon.png">
+                        <p>Refrigerator</p>
+                    </div>
+                    <div class="washingicon">
+                        <img src="./images/washingicon.png">
+                        <p>Washing Machine</p>
+                    </div>
+                    <div class="airconicon">
+                        <img src="./images/airconicon.png">
+                        <p>Aircon</p>
+                    </div>
+                </div>
+                <div class="column right" style="background-color:#bbb;">
+                    <button id="close">CLOSE</button>
+                    <h2>Information</h2>
+                    <p>Some text..</p>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
