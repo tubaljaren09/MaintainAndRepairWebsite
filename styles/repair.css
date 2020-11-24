@@ -52,19 +52,16 @@ body{
 .column {
     float: left;
     padding: 10px;
-  }
-  
-  .left {
+}
+.left {
     width: 25%;
-  }
-  
-  .right {
+}
+.right {
     width: 75%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+} 
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
